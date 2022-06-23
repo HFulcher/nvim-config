@@ -1,0 +1,58 @@
+{
+    "coc.preferences.formatOnSaveFiletypes": [
+        "css",
+        "sass",
+        "scss",
+        "markdown",
+        "html",
+        "json",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "python",
+        "dart"
+    ],
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "~/.local/bin/black",
+    "javascript.autoClosingTags": true,
+    "typescript.autoClosingTags": true,
+    "codeLens.enable": false,
+    "languageserver": {
+        "terraform": {
+            "command": "~/.bin/terraform-lsp",
+            "filetypes": [
+                "terraform",
+                "tf"
+            ],
+            "initializationOptions": {}
+        },
+        "dockerfile": {
+            "command": "docker-langserver",
+            "filetypes": [
+                "dockerfile"
+            ],
+            "args": [
+                "--stdio"
+            ]
+        },
+        "lua": {
+            "command": "lua-lsp",
+            "filetypes": [
+                "lua"
+            ]
+        },
+        "sql": {
+            "command": "sql-language-server",
+            "args": [
+                "up",
+                "--method",
+                "stdio"
+            ],
+            "filetypes": [
+                "sql",
+                "mysql"
+            ]
+        }
+    }
+}
