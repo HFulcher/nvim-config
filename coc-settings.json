@@ -20,7 +20,10 @@
     "codeLens.enable": false,
     "languageserver": {
         "terraform": {
-            "command": "~/.bin/terraform-lsp",
+            "command": "terraform-ls",
+            "args": [
+                "serve"
+            ],
             "filetypes": [
                 "terraform",
                 "tf"
