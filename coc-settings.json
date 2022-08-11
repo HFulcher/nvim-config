@@ -5,6 +5,7 @@
         "scss",
         "markdown",
         "html",
+        "hcl",
         "json",
         "javascript",
         "javascriptreact",
@@ -26,7 +27,8 @@
             ],
             "filetypes": [
                 "terraform",
-                "tf"
+                "tf",
+                "hcl"
             ],
             "initializationOptions": {}
         },
